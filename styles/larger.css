@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px) {
+
+    #menu-button {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav a {
+        border: none;
+        min-width: 150px;
+    }
+
+    .top-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .filter-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .filter-buttons button {
+        min-width: 150px;
+    }
+
+    #course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

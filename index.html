@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="WDD 231 course home page showcasing web and computer programming courses and projects.">
+
+    <meta name="author" content="NAMATA SHARIFA">
+
+    <title>WDD 231 | NAMATA SHARIFA</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+
+            <div class="logo-container">
+                <img src="images/logo.svg" alt="Website logo" width="50" height="50">
+                <span>NAMATA SHARIFA</span>
+            </div>
+
+            <button id="menu-button" aria-label="Open navigation menu"></button>
+
+        </div>
+
+        <nav id="navigation">
+            <a href="index.html" class="active">Home</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="final/index.html">Final</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Home</h1>
+
+        <div class="top-grid">
+
+            <section class="card">
+                <h2>About Me</h2>
+
+                <div class="card-content">
+                    <p>
+                        Hello! My name is Namata Sharifa. I am a student passionate
+                        about web development and software development.
+                    </p>
+
+                    <p>
+                        I enjoy learning how to build responsive, accessible, and
+                        user-friendly websites using modern web technologies.
+                    </p>
+                </div>
+            </section>
+
+
+            <section class="card">
+                <h2>Student Photo</h2>
+
+                <div class="card-content photo-container">
+                    <img src="images/profile.webp" alt="Portrait of Namata Sharifa" width="300" height="300">
+                </div>
+            </section>
+
+        </div>
+
+
+        <section class="certificate-section card">
+
+            <h2>Web Certificate Courses</h2>
+
+            <div class="filter-buttons">
+                <button id="all-button">All Courses</button>
+                <button id="wdd-button">WDD Courses</button>
+                <button id="cse-button">CSE Courses</button>
+            </div>
+
+            <div id="course-container"></div>
+
+            <p class="credits">
+                Total Credits:
+                <span id="total-credits"></span>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="social-links">
+
+            <a href="https://github.com/" target="_blank" aria-label="GitHub">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                LinkedIn
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+                Facebook
+            </a>
+
+        </div>
+
+
+        <p>
+            © <span id="currentyear"></span>
+            NAMATA SHARIFA
+            | South Africa
+        </p>
+
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>
