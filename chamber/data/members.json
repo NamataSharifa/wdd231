@@ -1,26 +1,26 @@
 {
     "members": [
         {
-            "name": "Sunrise Cafe",
-            "address": "15 Main Street, Your City",
+            "name": "Johannesburg Sunrise Cafe",
+            "address": "15 Main Street, Johannesburg, South Africa",
             "phone": "+27 11 555 1001",
             "website": "https://example.com",
             "image": "sunrise-cafe.webp",
             "membership": 3,
-            "description": "A locally owned cafe serving fresh meals, coffee, and baked goods."
+            "description": "A locally owned Johannesburg cafe serving fresh meals, coffee, and baked goods."
         },
         {
-            "name": "Green Tech Solutions",
-            "address": "22 Innovation Road, Your City",
+            "name": "Green Johannesburg Tech",
+            "address": "22 Innovation Road, Johannesburg, South Africa",
             "phone": "+27 11 555 1002",
             "website": "https://example.com",
             "image": "green-tech.webp",
             "membership": 2,
-            "description": "Providing sustainable technology solutions for homes and businesses."
+            "description": "Providing sustainable technology solutions for Johannesburg homes and businesses."
         },
         {
-            "name": "City Market",
-            "address": "48 Market Avenue, Your City",
+            "name": "Johannesburg City Market",
+            "address": "48 Market Avenue, Johannesburg, South Africa",
             "phone": "+27 11 555 1003",
             "website": "https://example.com",
             "image": "city-market.webp",
@@ -29,39 +29,39 @@
         },
         {
             "name": "Bright Future Academy",
-            "address": "7 Education Lane, Your City",
+            "address": "7 Education Lane, Johannesburg, South Africa",
             "phone": "+27 11 555 1004",
             "website": "https://example.com",
             "image": "bright-future.webp",
             "membership": 3,
-            "description": "Helping students develop academic and professional skills for the future."
+            "description": "Helping Johannesburg students develop academic and professional skills for the future."
         },
         {
-            "name": "Prime Builders",
-            "address": "90 Construction Drive, Your City",
+            "name": "Prime Builders Johannesburg",
+            "address": "90 Construction Drive, Johannesburg, South Africa",
             "phone": "+27 11 555 1005",
             "website": "https://example.com",
             "image": "prime-builders.webp",
             "membership": 2,
-            "description": "Construction and renovation services for residential and commercial projects."
+            "description": "Construction and renovation services for residential and commercial projects in Johannesburg."
         },
         {
-            "name": "Health Plus Clinic",
-            "address": "36 Wellness Street, Your City",
+            "name": "Health Plus Johannesburg",
+            "address": "36 Wellness Street, Johannesburg, South Africa",
             "phone": "+27 11 555 1006",
             "website": "https://example.com",
             "image": "health-plus.webp",
             "membership": 3,
-            "description": "Providing reliable and affordable healthcare services to the community."
+            "description": "Providing reliable healthcare services to individuals and families in Johannesburg."
         },
         {
-            "name": "Travel World",
-            "address": "12 Adventure Road, Your City",
+            "name": "Travel World Johannesburg",
+            "address": "12 Adventure Road, Johannesburg, South Africa",
             "phone": "+27 11 555 1007",
             "website": "https://example.com",
             "image": "travel-world.webp",
             "membership": 1,
-            "description": "Helping individuals and families plan local and international travel."
+            "description": "Helping Johannesburg residents plan local and international travel."
         }
     ]
 }

@@ -11,10 +11,16 @@ menuButton.addEventListener("click", () => {
 
     if (isOpen) {
         menuButton.textContent = "✕";
-        menuButton.setAttribute("aria-label", "Close navigation menu");
+        menuButton.setAttribute(
+            "aria-label",
+            "Close navigation menu"
+        );
     } else {
         menuButton.textContent = "☰";
-        menuButton.setAttribute("aria-label", "Open navigation menu");
+        menuButton.setAttribute(
+            "aria-label",
+            "Open navigation menu"
+        );
     }
 
 });

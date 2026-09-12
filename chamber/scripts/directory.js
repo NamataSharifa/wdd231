@@ -40,7 +40,7 @@ function displayMembers(members) {
         image.alt = `${member.name} business`;
         image.loading = "lazy";
         image.width = 300;
-        image.height = 200;
+        image.height = 180;
 
         const businessName = document.createElement("h2");
         businessName.textContent = member.name;
