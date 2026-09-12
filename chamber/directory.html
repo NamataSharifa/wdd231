@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chamber Directory | Your City Chamber of Commerce</title>
+
+    <meta name="description"
+        content="Explore businesses and organizations that are members of the Your City Chamber of Commerce.">
+    <meta name="author" content="Namata Sharifa">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <!-- Facebook Open Graph Meta Tags -->
+    <meta property="og:title" content="Your City Chamber of Commerce Directory">
+    <meta property="og:description"
+        content="Discover local businesses and organizations in the Your City Chamber of Commerce.">
+    <meta property="og:image" content="https://namatasharifa.github.io/wdd231/chamber/images/social-preview.webp">
+    <meta property="og:url" content="https://namatasharifa.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+
+            <a href="index.html" class="brand">
+                <img src="images/chamber-logo.svg" alt="Your City Chamber of Commerce logo" width="60" height="60">
+
+                <div>
+                    <span class="site-name">Your City</span>
+                    <span class="site-subtitle">Chamber of Commerce</span>
+                </div>
+            </a>
+
+            <button id="menu" class="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="navigation">
+                <a href="index.html">Home</a>
+                <a href="directory.html" class="active">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="discover.html">Discover</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <h1>Chamber Member Directory</h1>
+
+        <div class="view-buttons">
+            <button id="grid-view" class="selected" type="button">
+                Grid View
+            </button>
+
+            <button id="list-view" type="button">
+                List View
+            </button>
+        </div>
+
+        <section id="members" class="members-grid" aria-label="Chamber members">
+            <!-- Business information will be added with JavaScript -->
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-contact">
+                <h2>Your City Chamber of Commerce</h2>
+
+                <p>123 Business Street</p>
+                <p>Your City</p>
+                <p>info@yourcitychamber.org</p>
+                <p>+27 11 123 4567</p>
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+                    Facebook
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    LinkedIn
+                </a>
+
+            </div>
+
+            <div class="development-info">
+                <p>WDD 231 Class Project</p>
+
+                <p>Namata Sharifa</p>
+
+                <p>
+                    &copy; <span id="currentyear"></span>
+                    Your City Chamber of Commerce
+                </p>
+
+                <p id="lastModified"></p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

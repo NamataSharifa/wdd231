@@ -1,0 +1,241 @@
+:root {
+    --primary-color: #12355b;
+    --secondary-color: #1f7a8c;
+    --accent-color: #f4a261;
+    --background-color: #f7f7f7;
+    --text-color: #222;
+    --white: #ffffff;
+    --border-color: #dddddd;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    position: relative;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.brand img {
+    width: 55px;
+    height: 55px;
+}
+
+.site-name {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.site-subtitle {
+    display: block;
+    font-size: 0.85rem;
+}
+
+.menu-button {
+    position: absolute;
+    top: 1.4rem;
+    right: 1rem;
+
+    border: none;
+    background: transparent;
+    color: var(--white);
+
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* NAVIGATION */
+
+nav {
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+nav.open {
+    display: flex;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: var(--secondary-color);
+}
+
+/* MAIN */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+/* GRID AND LIST BUTTONS */
+
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.view-buttons button {
+    padding: 0.7rem 1.2rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--white);
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.view-buttons button:hover,
+.view-buttons button.selected {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+/* GRID DIRECTORY */
+
+.members-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.member-card {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+
+    box-shadow: 0 2px 6px rgb(0 0 0 / 12%);
+}
+
+.member-card img {
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.member-card h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.member-card a {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.membership {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* LIST VIEW */
+
+.members-list {
+    display: block;
+}
+
+.members-list .member-card {
+    margin-bottom: 0.5rem;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+.members-list .member-card:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.members-list .member-card img {
+    display: none;
+}
+
+.members-list .member-card h2 {
+    margin-top: 0;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 2rem 1rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer h2 {
+    font-size: 1.1rem;
+}
+
+footer p {
+    margin: 0.3rem 0;
+}
+
+.social-links {
+    margin: 1.5rem 0;
+}
+
+.social-links a {
+    color: var(--white);
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: var(--accent-color);
+}

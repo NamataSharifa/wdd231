@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Sunrise Cafe",
+            "address": "15 Main Street, Your City",
+            "phone": "+27 11 555 1001",
+            "website": "https://example.com",
+            "image": "sunrise-cafe.webp",
+            "membership": 3,
+            "description": "A locally owned cafe serving fresh meals, coffee, and baked goods."
+        },
+        {
+            "name": "Green Tech Solutions",
+            "address": "22 Innovation Road, Your City",
+            "phone": "+27 11 555 1002",
+            "website": "https://example.com",
+            "image": "green-tech.webp",
+            "membership": 2,
+            "description": "Providing sustainable technology solutions for homes and businesses."
+        },
+        {
+            "name": "City Market",
+            "address": "48 Market Avenue, Your City",
+            "phone": "+27 11 555 1003",
+            "website": "https://example.com",
+            "image": "city-market.webp",
+            "membership": 1,
+            "description": "A community marketplace offering food, clothing, and household goods."
+        },
+        {
+            "name": "Bright Future Academy",
+            "address": "7 Education Lane, Your City",
+            "phone": "+27 11 555 1004",
+            "website": "https://example.com",
+            "image": "bright-future.webp",
+            "membership": 3,
+            "description": "Helping students develop academic and professional skills for the future."
+        },
+        {
+            "name": "Prime Builders",
+            "address": "90 Construction Drive, Your City",
+            "phone": "+27 11 555 1005",
+            "website": "https://example.com",
+            "image": "prime-builders.webp",
+            "membership": 2,
+            "description": "Construction and renovation services for residential and commercial projects."
+        },
+        {
+            "name": "Health Plus Clinic",
+            "address": "36 Wellness Street, Your City",
+            "phone": "+27 11 555 1006",
+            "website": "https://example.com",
+            "image": "health-plus.webp",
+            "membership": 3,
+            "description": "Providing reliable and affordable healthcare services to the community."
+        },
+        {
+            "name": "Travel World",
+            "address": "12 Adventure Road, Your City",
+            "phone": "+27 11 555 1007",
+            "website": "https://example.com",
+            "image": "travel-world.webp",
+            "membership": 1,
+            "description": "Helping individuals and families plan local and international travel."
+        }
+    ]
+}
