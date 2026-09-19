@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Johannesburg Chamber of Commerce | Home</title>
+
+    <meta name="description"
+        content="Discover businesses, events, networking opportunities, and resources from the Johannesburg Chamber of Commerce.">
+
+    <meta name="author" content="Namata Sharifa">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Johannesburg Chamber of Commerce | Home">
+
+    <meta property="og:description"
+        content="Explore Johannesburg businesses, connect with local organizations, and discover the members helping our community grow.">
+
+    <meta property="og:image" content="https://namatasharifa.github.io/wdd231/chamber/images/social-preview.webp">
+
+    <meta property="og:url" content="https://namatasharifa.github.io/wdd231/chamber/index.html">
+
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="header-container">
+
+            <a href="index.html" class="brand">
+                <img src="images/chamber-logo.svg" alt="Johannesburg Chamber of Commerce logo" width="60" height="60">
+
+                <div>
+                    <span class="site-name">Johannesburg</span>
+                    <span class="site-subtitle">Chamber of Commerce</span>
+                </div>
+            </a>
+
+            <button id="menu" class="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="discover.html">Discover</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <img src="images/hero.jpg" alt="Johannesburg city skyline" width="1200" height="600">
+
+            <div class="hero-content">
+
+                <h1>Johannesburg Chamber of Commerce</h1>
+
+                <p>
+                    Connecting businesses and building opportunities
+                    in Johannesburg.
+                </p>
+
+                <a href="join.html" class="join-button">
+                    Join the Chamber
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Events and Weather -->
+        <section class="home-grid">
+
+            <!-- Current Events -->
+            <section class="events">
+
+                <h2>Current Events</h2>
+
+                <article>
+                    <h3>Johannesburg Business Networking</h3>
+
+                    <p>
+                        Connect with local entrepreneurs and business owners
+                        while building valuable professional relationships.
+                    </p>
+
+                    <p>
+                        <strong>Date:</strong> October 10, 2026
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Small Business Workshop</h3>
+
+                    <p>
+                        Learn practical strategies for growing and promoting
+                        your business in Johannesburg.
+                    </p>
+
+                    <p>
+                        <strong>Date:</strong> October 17, 2026
+                    </p>
+                </article>
+
+            </section>
+
+            <!-- Weather -->
+            <section class="weather">
+
+                <h2>Johannesburg Weather</h2>
+
+                <div id="current-weather">
+                    <p>Loading current weather...</p>
+                </div>
+
+                <h3>3-Day Forecast</h3>
+
+                <div id="forecast">
+                    <p>Loading forecast...</p>
+                </div>
+
+            </section>
+
+        </section>
+
+        <!-- Business Spotlights -->
+        <section class="spotlights">
+
+            <h2>Business Spotlights</h2>
+
+            <div id="spotlight-container">
+                <p>Loading business spotlights...</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-contact">
+
+                <h2>Johannesburg Chamber of Commerce</h2>
+
+                <p>123 Main Street</p>
+                <p>Johannesburg, South Africa</p>
+                <p>info@johannesburgchamber.org</p>
+                <p>+27 11 123 4567</p>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+                    Facebook
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                    LinkedIn
+                </a>
+
+            </div>
+
+            <div class="development-info">
+
+                <p>WDD 231 Class Project</p>
+
+                <p>Namata Sharifa</p>
+
+                <p>
+                    &copy;
+                    <span id="currentyear"></span>
+                    Johannesburg Chamber of Commerce
+                </p>
+
+                <p id="lastModified"></p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
