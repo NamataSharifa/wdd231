@@ -384,3 +384,148 @@ footer p {
 .social-links a:hover {
     color: var(--accent-color);
 }
+
+/* Join Page */
+
+.join-layout {
+    display: grid;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1100px;
+    padding: 0 1rem;
+}
+
+.join-layout form {
+    display: grid;
+    gap: 1rem;
+}
+
+.join-layout label {
+    display: grid;
+    gap: 0.4rem;
+    font-weight: 700;
+}
+
+.join-layout input,
+.join-layout select,
+.join-layout textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75rem;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.join-layout textarea {
+    resize: vertical;
+}
+
+.join-layout input[type="submit"] {
+    background-color: #12355b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.join-layout input[type="submit"]:hover {
+    background-color: #1f7a8c;
+}
+
+.membership-levels {
+    display: grid;
+    gap: 1rem;
+}
+
+.membership-card {
+    padding: 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4a261;
+    text-align: center;
+
+    /* Initial page-load animation */
+    animation: membershipEntrance 0.8s ease-out both;
+}
+
+.membership-card:nth-of-type(2) {
+    animation-delay: 0.2s;
+}
+
+.membership-card:nth-of-type(3) {
+    animation-delay: 0.4s;
+}
+
+.membership-card:nth-of-type(4) {
+    animation-delay: 0.6s;
+}
+
+.membership-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+@keyframes membershipEntrance {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Membership dialogs */
+
+dialog {
+    max-width: 500px;
+    padding: 2rem;
+    border: none;
+    border-radius: 10px;
+}
+
+dialog::backdrop {
+    background: rgb(0 0 0 / 60%);
+}
+
+dialog button {
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+}
+
+/* Thank You Page */
+
+.thank-you {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.application-summary {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f4a261;
+}
+
+.application-summary p {
+    margin: 0.75rem 0;
+}
+
+.return-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0.75rem 1rem;
+    background-color: #12355b;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.return-link:hover {
+    background-color: #1f7a8c;
+}
