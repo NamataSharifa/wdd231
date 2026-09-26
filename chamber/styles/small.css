@@ -385,7 +385,7 @@ footer p {
     color: var(--accent-color);
 }
 
-/* Join Page */
+/* JOIN PAGE */
 
 .join-layout {
     display: grid;
@@ -421,17 +421,24 @@ footer p {
     resize: vertical;
 }
 
-.join-layout input[type="submit"] {
-    background-color: #12355b;
-    color: white;
+/* Submit Button */
+
+.join-layout button[type="submit"] {
+    padding: 0.75rem;
+    background-color: var(--primary-color);
+    color: var(--white);
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font: inherit;
     font-weight: 700;
 }
 
-.join-layout input[type="submit"]:hover {
-    background-color: #1f7a8c;
+.join-layout button[type="submit"]:hover {
+    background-color: var(--secondary-color);
 }
+
+/* MEMBERSHIP LEVELS */
 
 .membership-levels {
     display: grid;
@@ -442,7 +449,7 @@ footer p {
     padding: 1.25rem;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f4a261;
+    background-color: var(--accent-color);
     text-align: center;
 
     /* Initial page-load animation */
@@ -479,7 +486,7 @@ footer p {
     }
 }
 
-/* Membership dialogs */
+/* MEMBERSHIP DIALOGS */
 
 dialog {
     max-width: 500px;
@@ -497,7 +504,7 @@ dialog button {
     cursor: pointer;
 }
 
-/* Thank You Page */
+/* THANK YOU PAGE */
 
 .thank-you {
     max-width: 900px;
@@ -509,7 +516,7 @@ dialog button {
     margin: 2rem 0;
     padding: 1.5rem;
     border-radius: 8px;
-    background-color: #f4a261;
+    background-color: var(--accent-color);
 }
 
 .application-summary p {
@@ -520,12 +527,12 @@ dialog button {
     display: inline-block;
     margin-bottom: 2rem;
     padding: 0.75rem 1rem;
-    background-color: #12355b;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--white);
     border-radius: 5px;
     text-decoration: none;
 }
 
 .return-link:hover {
-    background-color: #1f7a8c;
+    background-color: var(--secondary-color);
 }
