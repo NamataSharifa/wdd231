@@ -6,6 +6,8 @@
     --text-color: #222;
     --white: #ffffff;
     --border-color: #dddddd;
+    --input-border-color: #777;
+    --light-gray: #eeeeee;
 }
 
 * {
@@ -52,7 +54,12 @@ header {
     height: 55px;
 }
 
-
+.site-name {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+}
 
 .site-subtitle {
     display: block;
@@ -127,7 +134,7 @@ h1 {
     background-color: var(--white);
     color: var(--primary-color);
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .view-buttons button:hover,
@@ -167,11 +174,11 @@ h1 {
 
 .member-card a {
     color: var(--secondary-color);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .membership {
-    font-weight: bold;
+    font-weight: 700;
     color: var(--primary-color);
 }
 
@@ -189,7 +196,7 @@ h1 {
 }
 
 .members-list .member-card:nth-child(even) {
-    background-color: #eeeeee;
+    background-color: var(--light-gray);
 }
 
 .members-list .member-card img {
@@ -236,7 +243,7 @@ h1 {
     color: var(--white);
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .join-button:hover {
@@ -278,7 +285,7 @@ h1 {
 
 .temperature {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 0.25rem;
 }
 
@@ -341,7 +348,7 @@ h1 {
 
 .spotlight-card a {
     color: var(--secondary-color);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /* FOOTER */
@@ -374,7 +381,7 @@ footer p {
 .social-links a {
     color: var(--white);
     margin-right: 1rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .social-links a:hover {
@@ -406,9 +413,8 @@ footer p {
 .join-layout select,
 .join-layout textarea {
     width: 100%;
-    box-sizing: border-box;
     padding: 0.75rem;
-    border: 1px solid #777;
+    border: 1px solid var(--input-border-color);
     border-radius: 5px;
     font: inherit;
 }
@@ -417,7 +423,7 @@ footer p {
     resize: vertical;
 }
 
-/* Submit Button */
+/* SUBMIT BUTTON */
 
 .join-layout button[type="submit"] {
     padding: 0.75rem;
@@ -443,12 +449,10 @@ footer p {
 
 .membership-card {
     padding: 1.25rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     background-color: var(--accent-color);
     text-align: center;
-
-    /* Initial page-load animation */
     animation: membershipEntrance 0.8s ease-out both;
 }
 
@@ -546,7 +550,7 @@ dialog button {
 
 .discover-heading h2 {
     margin-bottom: 0.5rem;
-    color: var(--primary);
+    color: var(--primary-color);
 }
 
 .discover-heading p {
@@ -559,24 +563,21 @@ dialog button {
     max-width: 1200px;
     margin: 1rem auto;
     padding: 1rem;
-    background-color: var(--secondary);
+    background-color: var(--secondary-color);
     color: var(--white);
     border-radius: 8px;
     text-align: center;
     font-weight: 700;
 }
 
-/* Small screen grid */
+/* DISCOVER GRID */
 
 .discover-grid {
     max-width: 1200px;
     margin: 1rem auto 3rem;
     padding: 0 1rem;
-
     display: grid;
-
     grid-template-columns: 1fr;
-
     grid-template-areas:
         "card1"
         "card2"
@@ -586,7 +587,6 @@ dialog button {
         "card6"
         "card7"
         "card8";
-
     gap: 1.5rem;
 }
 
@@ -626,7 +626,7 @@ dialog button {
     background-color: var(--white);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
     padding-bottom: 1rem;
 }
 
@@ -652,7 +652,6 @@ dialog button {
     transition: none;
 }
 
-
 .discover-card address {
     margin: 1rem;
     font-style: normal;
@@ -670,27 +669,15 @@ dialog button {
     display: block;
     margin: 1rem;
     padding: 0.7rem 1.2rem;
-
     border: none;
     border-radius: 5px;
-
     background-color: var(--accent-color);
     color: var(--text-color);
-
     font-weight: 700;
     cursor: pointer;
 }
 
 .discover-card button:hover {
     background-color: var(--primary-color);
-    color: var(--white);
-}
-
-
-
-.site-name {
-    margin: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
     color: var(--white);
 }

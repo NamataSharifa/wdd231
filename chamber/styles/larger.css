@@ -1,3 +1,7 @@
+/* =========================================
+   LARGE SCREENS
+   ========================================= */
+
 @media screen and (min-width: 768px) {
 
     .header-container {
@@ -56,11 +60,8 @@
     .social-links {
         margin: 0;
     }
-}
 
-/* Join Page - Large Screens */
-
-@media screen and (min-width: 768px) {
+    /* JOIN PAGE */
 
     .join-layout {
         grid-template-columns: 2fr 1fr;
@@ -71,9 +72,7 @@
         position: sticky;
         top: 1rem;
     }
-
 }
-
 
 
 /* =========================================
@@ -84,12 +83,10 @@
 
     .discover-grid {
         grid-template-columns: repeat(4, 1fr);
-
         grid-template-areas:
             "card1 card1 card2 card3"
             "card4 card5 card5 card6"
             "card7 card8 card8 card6";
-
         gap: 1.5rem;
     }
 
@@ -97,7 +94,8 @@
         min-height: 100%;
     }
 
-    /* Desktop image hover effect */
+    /* DESKTOP IMAGE HOVER EFFECT */
+
     .discover-card img {
         transition:
             transform 0.3s ease,
@@ -108,6 +106,6 @@
     .discover-card img:hover {
         transform: scale(1.04);
         filter: brightness(1.08);
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 6px 15px rgb(0 0 0 / 25%);
     }
 }
