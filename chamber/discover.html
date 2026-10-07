@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Discover Johannesburg | Johannesburg Chamber of Commerce</title>
+
+    <meta name="description"
+        content="Discover places, attractions, history, culture, and natural beauty in Johannesburg, South Africa. Explore eight destinations recommended by the Johannesburg Chamber of Commerce.">
+    <meta name="author" content="Namata Sharifa">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Discover Johannesburg | Johannesburg Chamber of Commerce">
+    <meta property="og:description"
+        content="Explore eight interesting places, attractions, and cultural destinations in Johannesburg, South Africa.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://NAMATASHARIFA.github.io/wdd231/chamber/discover.html">
+    <meta property="og:image" content="https://NAMATASHARIFA.github.io/wdd231/chamber/images/social-preview.webp">
+
+    <link rel="icon" href="images/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script type="module" src="scripts/discover.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+
+            <div class="brand">
+                <img src="images/chamber-logo.svg" alt="Johannesburg Chamber of Commerce logo">
+                <div>
+                    <h1>Johannesburg Chamber of Commerce</h1>
+                    <p>Connecting Business. Building Johannesburg.</p>
+                </div>
+            </div>
+
+            <button id="menu" aria-label="Open navigation menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav id="navigation">
+                <a href="index.html">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="discover.html" class="active" aria-current="page">Discover</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="discover-heading">
+            <h2>Discover Johannesburg</h2>
+            <p>
+                Explore the history, culture, entertainment, nature, and attractions
+                that make Johannesburg a vibrant place to live, visit, and do business.
+            </p>
+        </section>
+
+        <div id="visit-message" class="visit-message" role="status"></div>
+
+        <section id="discover-grid" class="discover-grid" aria-label="Johannesburg places of interest">
+            <!-- Cards are created dynamically with JavaScript -->
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+
+            <div>
+                <h2>Johannesburg Chamber of Commerce</h2>
+                <p>Connecting businesses and communities across Johannesburg.</p>
+                <p>Johannesburg, South Africa</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+            </div>
+
+            <div>
+                <p>&copy; <span id="currentyear"></span> Johannesburg Chamber of Commerce</p>
+                <p>Namata Sharifa | WDD 231</p>
+                <p id="lastModified"></p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

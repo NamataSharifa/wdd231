@@ -536,3 +536,159 @@ dialog button {
 .return-link:hover {
     background-color: var(--secondary-color);
 }
+
+/* =========================================
+   DISCOVER PAGE
+   ========================================= */
+
+.discover-heading {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem 1rem;
+    text-align: center;
+}
+
+.discover-heading h2 {
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.discover-heading p {
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.visit-message {
+    max-width: 1200px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: var(--secondary);
+    color: var(--white);
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Small screen grid */
+
+.discover-grid {
+    max-width: 1200px;
+    margin: 1rem auto 3rem;
+    padding: 0 1rem;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+
+    gap: 1.5rem;
+}
+
+.card-1 {
+    grid-area: card1;
+}
+
+.card-2 {
+    grid-area: card2;
+}
+
+.card-3 {
+    grid-area: card3;
+}
+
+.card-4 {
+    grid-area: card4;
+}
+
+.card-5 {
+    grid-area: card5;
+}
+
+.card-6 {
+    grid-area: card6;
+}
+
+.card-7 {
+    grid-area: card7;
+}
+
+.card-8 {
+    grid-area: card8;
+}
+
+.discover-card {
+    background-color: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    padding-bottom: 1rem;
+}
+
+.discover-card h2 {
+    color: var(--primary);
+    font-size: 1.35rem;
+    margin: 1rem;
+}
+
+.discover-card figure {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.discover-card img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.discover-card address {
+    margin: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--secondary);
+    line-height: 1.5;
+}
+
+.discover-card p {
+    margin: 1rem;
+    line-height: 1.6;
+}
+
+.discover-card button {
+    display: block;
+    margin: 1rem;
+    padding: 0.7rem 1.2rem;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: var(--accent);
+    color: var(--text);
+
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.discover-card button:hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* No image hover effect on small screens */
+.discover-card img {
+    transition: none;
+}
