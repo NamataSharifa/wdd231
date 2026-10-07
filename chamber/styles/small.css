@@ -653,7 +653,9 @@ dialog button {
     object-fit: cover;
     margin: 0 auto;
     border-radius: 6px;
+    transition: none;
 }
+
 
 .discover-card address {
     margin: 1rem;
@@ -688,7 +690,11 @@ dialog button {
     color: var(--white);
 }
 
-/* No image hover effect on small screens */
-.discover-card img {
-    transition: none;
+
+
+.site-name {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
 }
