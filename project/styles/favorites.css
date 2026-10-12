@@ -1,0 +1,29 @@
+/* Favorites page styles */
+
+.favorites-section {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.favorites-help {
+    margin-top: 2rem;
+    color: var(--text);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.empty-state {
+    margin: 2rem 0;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 0.75rem;
+}
+
+.empty-state h3 {
+    color: var(--primary);
+}
+
+.empty-state p {
+    line-height: 1.6;
+}
