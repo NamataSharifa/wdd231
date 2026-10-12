@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Find Affordable Meals | Budget Bites</title>
+    <meta name="description"
+        content="Browse affordable student meals, compare estimated costs, search ingredients, and find quick recipes with Budget Bites.">
+    <meta name="author" content="Namata Sharifa">
+
+    <meta property="og:title" content="Find Affordable Meals | Budget Bites">
+    <meta property="og:description"
+        content="Explore budget-friendly meals with estimated costs, ingredients, and preparation times.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://NamataSharifa.github.io/wdd231/project/meals.html">
+
+    <meta name="theme-color" content="#12355B">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/main.css">
+    <script type="module" src="scripts/meals.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Budget Bites home">
+            <span class="brand-icon" aria-hidden="true">🍲</span>
+            <span>Budget Bites</span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="primary-navigation">
+            ☰
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="meals.html" aria-current="page">Find Meals</a>
+            <a href="favorites.html">My Favorites</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <p class="eyebrow">YOUR MEAL DISCOVERY GUIDE</p>
+            <h1>Find your next affordable meal</h1>
+            <p>Search simple recipes, compare estimated costs, and discover meals that fit your schedule.</p>
+        </section>
+
+        <section class="section-container meal-finder" aria-labelledby="finder-heading">
+            <div class="section-heading">
+                <h2 id="finder-heading">Explore the meals</h2>
+                <p>Search by meal name or ingredient, or choose a category.</p>
+            </div>
+
+            <div class="meal-controls">
+                <div class="form-field">
+                    <label for="meal-search">Search meals</label>
+                    <input id="meal-search" type="search" placeholder="Try rice, eggs, or beans">
+                </div>
+
+                <div class="form-field">
+                    <label for="category-filter">Meal category</label>
+                    <select id="category-filter">
+                        <option value="all">All categories</option>
+                    </select>
+                </div>
+
+                <div class="form-field">
+                    <label for="sort-meals">Sort meals</label>
+                    <select id="sort-meals">
+                        <option value="default">Recommended order</option>
+                        <option value="cost-low">Cost: lowest first</option>
+                        <option value="cost-high">Cost: highest first</option>
+                        <option value="time-low">Preparation: quickest first</option>
+                    </select>
+                </div>
+            </div>
+
+            <p id="meal-count" class="status-message" role="status" aria-live="polite">
+                Loading meals...
+            </p>
+
+            <div class="meal-grid" id="all-meals"></div>
+        </section>
+
+        <dialog id="meal-dialog" aria-labelledby="dialog-title">
+            <div class="dialog-header">
+                <h2 id="dialog-title">Meal details</h2>
+                <button type="button" id="close-dialog" class="dialog-close" aria-label="Close meal details">
+                    &times;
+                </button>
+            </div>
+            <div id="dialog-content"></div>
+        </dialog>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <a class="footer-brand" href="index.html">Budget Bites</a>
+                <p>Affordable meal inspiration for student life.</p>
+                <p class="copyright">
+                    &copy; <span class="current-year"></span> Budget Bites |
+                    Namata Sharifa
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="attributions.html">Attributions</a>
+                <a href="siteplan.html">Site Plan</a>
+                <a href="#" class="video-link">Project Demonstration Video</a>
+            </div>
+        </div>
+        <p class="video-note">The demonstration video link will be added after recording.</p>
+    </footer>
+</body>
+
+</html>

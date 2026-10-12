@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "name": "Vegetable Rice",
+        "category": "Vegetarian",
+        "cost": 25,
+        "prepTime": 25,
+        "ingredients": [
+            "Rice",
+            "Carrots",
+            "Peas",
+            "Onion"
+        ],
+        "description": "A simple, affordable rice meal with mixed vegetables."
+    },
+    {
+        "id": 2,
+        "name": "Bean Stew",
+        "category": "Vegetarian",
+        "cost": 20,
+        "prepTime": 35,
+        "ingredients": [
+            "Beans",
+            "Tomatoes",
+            "Onion",
+            "Spices"
+        ],
+        "description": "A filling bean stew made with everyday ingredients."
+    },
+    {
+        "id": 3,
+        "name": "Egg Sandwich",
+        "category": "Quick Meals",
+        "cost": 18,
+        "prepTime": 10,
+        "ingredients": [
+            "Bread",
+            "Eggs",
+            "Tomato",
+            "Lettuce"
+        ],
+        "description": "A quick sandwich suitable for a busy study day."
+    },
+    {
+        "id": 4,
+        "name": "Chicken Pasta",
+        "category": "High Protein",
+        "cost": 35,
+        "prepTime": 30,
+        "ingredients": [
+            "Pasta",
+            "Chicken",
+            "Tomatoes",
+            "Onion"
+        ],
+        "description": "A satisfying pasta meal with chicken and tomato sauce."
+    },
+    {
+        "id": 5,
+        "name": "Peanut Butter Toast",
+        "category": "Quick Meals",
+        "cost": 12,
+        "prepTime": 5,
+        "ingredients": [
+            "Bread",
+            "Peanut Butter",
+            "Banana"
+        ],
+        "description": "A fast breakfast or snack with simple ingredients."
+    },
+    {
+        "id": 6,
+        "name": "Pap and Beans",
+        "category": "Vegetarian",
+        "cost": 22,
+        "prepTime": 30,
+        "ingredients": [
+            "Maize Meal",
+            "Beans",
+            "Tomatoes",
+            "Onion"
+        ],
+        "description": "A budget-friendly meal inspired by familiar South African staples."
+    },
+    {
+        "id": 7,
+        "name": "Tuna Pasta",
+        "category": "High Protein",
+        "cost": 32,
+        "prepTime": 20,
+        "ingredients": [
+            "Pasta",
+            "Tuna",
+            "Sweetcorn",
+            "Mayonnaise"
+        ],
+        "description": "An easy tuna pasta dish for lunch or dinner."
+    },
+    {
+        "id": 8,
+        "name": "Vegetable Omelette",
+        "category": "Vegetarian",
+        "cost": 20,
+        "prepTime": 12,
+        "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Tomatoes",
+            "Onion"
+        ],
+        "description": "An omelette packed with vegetables."
+    },
+    {
+        "id": 9,
+        "name": "Chicken Wrap",
+        "category": "High Protein",
+        "cost": 30,
+        "prepTime": 20,
+        "ingredients": [
+            "Wraps",
+            "Chicken",
+            "Lettuce",
+            "Tomato"
+        ],
+        "description": "A convenient chicken wrap for lunch between classes."
+    },
+    {
+        "id": 10,
+        "name": "Banana Oats",
+        "category": "Breakfast",
+        "cost": 15,
+        "prepTime": 8,
+        "ingredients": [
+            "Oats",
+            "Banana",
+            "Milk"
+        ],
+        "description": "A warm, simple breakfast made with oats and banana."
+    },
+    {
+        "id": 11,
+        "name": "Lentil Curry",
+        "category": "Vegetarian",
+        "cost": 25,
+        "prepTime": 35,
+        "ingredients": [
+            "Lentils",
+            "Tomatoes",
+            "Onion",
+            "Curry Powder"
+        ],
+        "description": "A hearty lentil curry served with rice."
+    },
+    {
+        "id": 12,
+        "name": "Potato Hash",
+        "category": "Vegetarian",
+        "cost": 18,
+        "prepTime": 25,
+        "ingredients": [
+            "Potatoes",
+            "Onion",
+            "Eggs",
+            "Spices"
+        ],
+        "description": "Golden potatoes cooked with onion and seasoning."
+    },
+    {
+        "id": 13,
+        "name": "Sardine Rice",
+        "category": "High Protein",
+        "cost": 24,
+        "prepTime": 20,
+        "ingredients": [
+            "Rice",
+            "Sardines",
+            "Tomatoes",
+            "Onion"
+        ],
+        "description": "A quick rice dish with sardines and tomato."
+    },
+    {
+        "id": 14,
+        "name": "Bean Burrito",
+        "category": "Vegetarian",
+        "cost": 28,
+        "prepTime": 20,
+        "ingredients": [
+            "Wraps",
+            "Beans",
+            "Rice",
+            "Tomatoes"
+        ],
+        "description": "A filling bean and rice wrap."
+    },
+    {
+        "id": 15,
+        "name": "French Toast",
+        "category": "Breakfast",
+        "cost": 16,
+        "prepTime": 10,
+        "ingredients": [
+            "Bread",
+            "Eggs",
+            "Milk",
+            "Cinnamon"
+        ],
+        "description": "A simple French toast breakfast."
+    }
+]

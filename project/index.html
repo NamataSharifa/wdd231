@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Budget Bites | Affordable Student Meals</title>
+    <meta name="description"
+        content="Discover affordable, easy-to-prepare meals for students with Budget Bites. Browse meal costs, ingredients, and preparation times.">
+    <meta name="author" content="Namata Sharifa">
+
+    <meta property="og:title" content="Budget Bites | Affordable Student Meals">
+    <meta property="og:description"
+        content="Find budget-friendly meals, plan your food spending, and save your favorite recipes with Budget Bites.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://NamataSharifa.github.io/wdd231/project/">
+
+    <meta name="theme-color" content="#12355B">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/main.css">
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Budget Bites home">
+            <span class="brand-icon" aria-hidden="true">🍲</span>
+            <span>Budget Bites</span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="primary-navigation">
+            ☰
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="meals.html">Find Meals</a>
+            <a href="favorites.html">My Favorites</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">SMART EATING FOR STUDENTS</p>
+                <h1>Eat well. Spend less.</h1>
+                <p>
+                    Student life is busy, and food costs add up.
+                    Discover simple, affordable meals that help you
+                    make the most of your budget.
+                </p>
+                <a class="button button-primary" href="meals.html">
+                    Explore Affordable Meals
+                </a>
+            </div>
+
+            <div class="hero-art" aria-hidden="true">
+                <span class="hero-emoji">🥗</span>
+                <span class="hero-note">Good food, smarter spending!</span>
+            </div>
+        </section>
+
+        <section class="benefits section-container" aria-labelledby="benefits-heading">
+            <div class="section-heading">
+                <p class="eyebrow">YOUR STUDENT FOOD GUIDE</p>
+                <h2 id="benefits-heading">Making meals easier</h2>
+                <p>Find ideas that fit your schedule and your wallet.</p>
+            </div>
+
+            <div class="benefit-grid">
+                <article class="benefit-card">
+                    <span class="benefit-icon" aria-hidden="true">💰</span>
+                    <h3>Budget Friendly</h3>
+                    <p>Explore meal ideas with estimated costs in South African rand.</p>
+                </article>
+
+                <article class="benefit-card">
+                    <span class="benefit-icon" aria-hidden="true">⏱️</span>
+                    <h3>Save Time</h3>
+                    <p>Check preparation times before choosing what to cook.</p>
+                </article>
+
+                <article class="benefit-card">
+                    <span class="benefit-icon" aria-hidden="true">❤️</span>
+                    <h3>Save Favorites</h3>
+                    <p>Keep your favorite meal ideas handy for your next shopping trip.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="featured-section" aria-labelledby="featured-heading">
+            <div class="section-container">
+                <div class="section-heading">
+                    <p class="eyebrow">START WITH SOMETHING SIMPLE</p>
+                    <h2 id="featured-heading">Affordable meal ideas</h2>
+                    <p>Here are a few ideas to inspire your next meal.</p>
+                </div>
+
+                <p id="meal-status" class="status-message" role="status">
+                    Loading meal ideas...
+                </p>
+
+                <div class="meal-grid" id="featured-meals"></div>
+
+                <div class="center-action">
+                    <a class="button button-secondary" href="meals.html">
+                        View All Meals
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action section-container">
+            <div>
+                <p class="eyebrow">MAKE YOUR MONEY GO FURTHER</p>
+                <h2>Small choices can make a difference.</h2>
+                <p>Find your next affordable meal and start planning smarter.</p>
+            </div>
+            <a class="button button-primary" href="meals.html">Find Your Next Meal</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <a class="footer-brand" href="index.html">Budget Bites</a>
+                <p>Affordable meal inspiration for student life.</p>
+                <p class="copyright">
+                    &copy; <span id="current-year"></span> Budget Bites |
+                    Namata Sharifa
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="attributions.html">Attributions</a>
+                <a href="siteplan.html">Site Plan</a>
+                <a href="#" id="video-link">Project Demonstration Video</a>
+            </div>
+        </div>
+        <p class="video-note" id="video-note">
+            The project demonstration video link will be added after recording.
+        </p>
+    </footer>
+</body>
+
+</html>

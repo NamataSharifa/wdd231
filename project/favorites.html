@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Favorite Meals | Budget Bites</title>
+    <meta name="description"
+        content="View your saved Budget Bites recipes, compare estimated meal costs, and choose affordable meals for student life.">
+    <meta name="author" content="Namata Sharifa">
+
+    <meta property="og:title" content="My Favorite Meals | Budget Bites">
+    <meta property="og:description" content="Keep your favorite affordable student meals together with Budget Bites.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://NamataSharifa.github.io/wdd231/project/favorites.html">
+
+    <meta name="theme-color" content="#12355B">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/main.css">
+    <script type="module" src="scripts/favorites.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Budget Bites home">
+            <span class="brand-icon" aria-hidden="true">🍲</span>
+            <span>Budget Bites</span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu"
+            aria-expanded="false" aria-controls="primary-navigation">
+            ☰
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="meals.html">Find Meals</a>
+            <a href="favorites.html" aria-current="page">My Favorites</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <p class="eyebrow">YOUR PERSONAL COLLECTION</p>
+            <h1>My Favorite Meals</h1>
+            <p>
+                Keep your favorite affordable recipes in one place
+                and find inspiration for your next meal.
+            </p>
+        </section>
+
+        <section class="section-container favorites-section" aria-labelledby="favorites-heading">
+
+            <div class="section-heading">
+                <h2 id="favorites-heading">Your saved recipes</h2>
+                <p id="favorites-count" class="status-message" role="status" aria-live="polite">
+                    Loading your favorites...
+                </p>
+            </div>
+
+            <div class="meal-grid" id="favorite-meals"></div>
+
+            <div id="empty-favorites" class="empty-state" hidden>
+                <h3>No favorite meals yet</h3>
+                <p>
+                    Visit Find Meals and select "Save Favorite"
+                    on a recipe you would like to keep.
+                </p>
+                <a class="button" href="meals.html">Explore Meals</a>
+            </div>
+
+            <p class="favorites-help">
+                Your saved meals are stored in this browser.
+                Clearing browser data may remove your favorites.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div>
+                <a class="footer-brand" href="index.html">Budget Bites</a>
+                <p>Affordable meal inspiration for student life.</p>
+                <p class="copyright">
+                    &copy; <span class="current-year"></span> Budget Bites |
+                    Namata Sharifa
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="attributions.html">Attributions</a>
+                <a href="siteplan.html">Site Plan</a>
+                <a href="#" class="video-link">Project Demonstration Video</a>
+            </div>
+        </div>
+
+        <p class="video-note">
+            The demonstration video link will be added after recording.
+        </p>
+    </footer>
+</body>
+
+</html>
