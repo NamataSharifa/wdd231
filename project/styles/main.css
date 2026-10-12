@@ -257,13 +257,8 @@ button:focus-visible {
 }
 
 .benefit-card h3,
-.meal-card h3,
-.attribution-item h3 {
-    color: var(--primary);
-}
-
-.benefit-card h3,
 .meal-card h3 {
+    color: var(--primary);
     margin: 0.6rem 0;
 }
 
@@ -557,14 +552,15 @@ button:focus-visible {
 
 .attribution-item h3 {
     margin-top: 0;
-}
-
-.attribution-item p:last-child {
-    margin-bottom: 0;
+    color: var(--primary);
 }
 
 .attribution-item p {
     overflow-wrap: anywhere;
+}
+
+.attribution-item p:last-child {
+    margin-bottom: 0;
 }
 
 /* Footer */
