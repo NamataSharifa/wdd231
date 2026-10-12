@@ -1,0 +1,23 @@
+/* Attributions page styles */
+
+.attribution-section {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.attribution-item {
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+    background-color: var(--white);
+    border-radius: 0.75rem;
+}
+
+.attribution-item h3 {
+    color: var(--primary);
+    margin-top: 0;
+}
+
+.attribution-item p {
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
